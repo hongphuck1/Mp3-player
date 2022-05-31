@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="icon" href="img/music.jpg">
+    <link rel="stylesheet" href="../font/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="../font/fontawesome-free-6.1.0-web/fontawesome-free-6.1.0-web/css/all.css">
+    <link rel="stylesheet" href="font/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+    <link rel="stylesheet" href="../css/snowflakes.css">
+</head>
+
+<body>
+    <div class="Player-Mp3">
+
+        <div class="mp3">
+            <div class="mp3-title">Now playing:</div>
+            <div class="mp3-name">String 57th & 9th</div>
+            <div class="mp3-img" style="background-image: url(img/music.jpg)">
+                <!-- <img src="https://i.pinimg.com/736x/34/d6/f4/34d6f424bedf3dbc00ad054aec65a28b.jpg" alt=""> -->
+            </div>
+            <div class="mp3-start">
+                <!-- <i class="start-btn-item ti-reload"></i>
+                <i class="start-btn-item ti-control-skip-backward"></i>
+                <i class="start-btn-item start-btn-play active fa-solid fa-play"></i>
+                <i class="start-btn-item start-btn-play  ti-control-pause"></i>
+                <i class="start-btn-item ti-control-skip-forward"></i>
+                <i class="start-btn-item ti-control-shuffle"></i> -->
+
+
+                <div class="btn btn-repeat">
+                    <i class="start-btn-item fas fa-redo"></i>
+                </div>
+                <div class="btn btn-prev">
+                    <i class="start-btn-item fas fa-step-backward"></i>
+                </div>
+                <div class="btn btn-toggle-play">
+                    <i class="start-btn-item start-btn-play icon-play fa-solid fa-play"></i>
+                    <i class="start-btn-item start-btn-pause icon-pause ti-control-pause"></i>
+                </div>
+                <div class="btn btn-next">
+                    <i class="start-btn-item fas fa-step-forward"></i>
+                </div>
+                <div class="btn btn-random ">
+                    <i class="start-btn-item fas fa-random"></i>
+                </div>
+
+            </div>
+            <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+
+            <!-- source bài hát -->
+            <audio id="audio" src=""></audio>
+        </div>
+
+        <div class="play-lists">
+            <!-- các thẻ được render bên main -->
+
+        </div>
+    </div>
+
+
+
+
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

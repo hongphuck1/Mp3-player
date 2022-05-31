@@ -1,0 +1,33 @@
+:root {
+    --color-facebook: #3B5998;
+    --color-tiktok: #111111;
+    --color-zalo: #0A68FE;
+    --color-youtube: #EA4335;
+    --color-email: rgb(69, 141, 218);
+
+
+    --height-mp3: 400px;
+    --height-playlist: calc(var(--height-mp3) - 20px);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, #6f86d6, #89f7fe);
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    position: relative;
+    font-family: 'Nunito',
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
